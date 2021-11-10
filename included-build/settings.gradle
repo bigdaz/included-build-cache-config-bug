@@ -2,7 +2,6 @@ rootProject.name='included-build'
 
 // buildCache {
 //     remote(HttpBuildCache) {
-//         url = 'https://localhost/cache/'
-//         allowUntrustedServer = true
+//         url = 'https://us-build-cache.gradle.org/cache/'
 //     }
 // }

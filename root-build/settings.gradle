@@ -6,16 +6,14 @@ plugins {
 }
 
 gradleEnterprise {
-    server = "https://localhost"
-    allowUntrustedServer = true
+    server = "https://e.grdev.net"
     buildScan {
         publishAlways()
     }
 }
 buildCache {
     remote(HttpBuildCache) {
-        url = 'https://localhost/cache/'
-        allowUntrustedServer = true
+        url = 'https://us-build-cache.gradle.org/cache/'
     }
 }
 
