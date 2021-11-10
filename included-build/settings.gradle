@@ -1,1 +1,8 @@
 rootProject.name='included-build'
+
+// buildCache {
+//     remote(HttpBuildCache) {
+//         url = 'https://localhost/cache/'
+//         allowUntrustedServer = true
+//     }
+// }
