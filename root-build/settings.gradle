@@ -1,3 +1,6 @@
+pluginManagement {
+    includeBuild '../included-build'
+}
 plugins {
     id "com.gradle.enterprise" version "3.7.1"
 }
